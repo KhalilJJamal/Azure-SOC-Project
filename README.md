@@ -17,51 +17,11 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 ## Before and After Security Controls
 
-## Before and After Security Controls
+| Before Security Controls | After Security Controls |
+| :----------------------: | :---------------------: |
+| ![Before](unsecure_network.png) | ![After](secure_network.png) |
 
-<div class="image-container">
-    <div class="image-box">
-        <!-- Unsecure Network -->
-        <a href="unsecure_network.png" target="_blank">
-            <img src="unsecure_network.png" alt="Before Security Controls">
-        </a>
-    </div>
-    <div class="image-box">
-        <!-- Secure Network -->
-        <a href="secure_network.png" target="_blank">
-            <img src="secure_network.png" alt="After Security Controls">
-        </a>
-    </div>
-</div>
-
-<style>
-    .image-container {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .image-box {
-        flex: 0 1 auto;
-        margin: 5px;
-        width: 150px; /* Thumbnail width */
-        height: 150px; /* Thumbnail height */
-        overflow: hidden;
-        position: relative;
-    }
-
-    .image-box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    @media (max-width: 600px) {
-        .image-container {
-            flex-direction: column;
-        }
-    }
-</style>
+Click on the images to view them in full size.
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
