@@ -15,13 +15,20 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
+## Before Security Controls
 
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+<!-- Unsecure Network -->
+<div style="width: 100%; padding-top: 100%; position: relative;">
+    <img src="unsecure_network.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
+</div>
 
-## Architecture After Hardening / Security Controls
 
-<img src="secure_network.png" width="350"/>
+## After Security Controls
+
+<!-- Secure Network -->
+<div style="width: 100%; padding-top: 100%; position: relative;">
+    <img src="secure_network.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
+</div>
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
