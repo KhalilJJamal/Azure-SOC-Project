@@ -1,7 +1,6 @@
 # Azure SOC + Honeynet Project (With Live Traffic)
 
-![Cloud Honeynet / SOC]()
-<img src="c1069c7f-caf6-4644-b2ca-5b6fc2ca1221.png" height="200" style="aspect-ratio: 16 / 9;"/>
+<img src="c1069c7f-caf6-4644-b2ca-5b6fc2ca1221.png" height="800" style="aspect-ratio: 16 / 9;"/>
 
 ## Introduction
 
