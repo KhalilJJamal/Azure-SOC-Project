@@ -1,6 +1,6 @@
 # Azure SOC + Honeynet Project (With Live Traffic)
 
-<img src="c1069c7f-caf6-4644-b2ca-5b6fc2ca1221.png" height="150" style="aspect-ratio: 16 / 9; max-width: 100%; height: auto;"/>
+<img src="azure_diagram.png" height="300" style="aspect-ratio: 16 / 9; max-width: 100%; height: auto;"/>
 
 ## Introduction
 
