@@ -1,6 +1,8 @@
 # Azure SOC + Honeynet Project (With Live Traffic)
 
-<img src="azure_diagram.png" height="300" style="aspect-ratio: 16 / 9; max-width: 100%; height: auto;"/>
+<div style="width: 100%; padding-top: 56.25%; position: relative;">
+    <img src="azure_diagram.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
+</div>
 
 ## Introduction
 
