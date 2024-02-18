@@ -14,14 +14,13 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityAlert (Log Analytics Alerts Triggered)
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
-
-</div>
-<div style="border: 2px solid #000; padding: 10px;">  
+  
 ## Before and After Security Controls
 *<small>Admittedly, this a theoretical model based on wishful thinking, but one could hope, right?<small>*
 | Before Security Controls | After Security Controls |
 | :----------------------: | :---------------------: |
-    <p align="center">
+
+<p align="center">
 | <img src="unsecure_network.png" alt="Before" width="410"/> | <img src="secure_network.png" alt="After" width="395"/> |
 </p>
     
