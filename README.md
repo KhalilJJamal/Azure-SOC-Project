@@ -17,13 +17,6 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 ## Before and After Security Controls
 
-## Before and After Security Controls
-
-<div>
-    <img src="unsecure_network.png" alt="Before Security Controls" width="200" />
-    <img src="secure_network.png" alt="After Security Controls" width="200" />
-</div>
-
 Click on the images to view them in full size.
 
 
