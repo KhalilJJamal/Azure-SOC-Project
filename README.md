@@ -22,7 +22,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 
 </p>
 <p align="center">
-| <img src="unsecure_network.png" alt="Before" width="410"/> | <img src="secure_network.png" alt="After" width="395"/> |
+<img src="unsecure_network.png" alt="Before" width="410"/> | <img src="secure_network.png" alt="After" width="395"/> 
 </p>
     
 The architecture of the mini honeynet in Azure consists of the following components:
