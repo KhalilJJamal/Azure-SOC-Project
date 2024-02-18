@@ -19,7 +19,7 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 *<small>Admittedly, this a theoretical model based on wishful thinking, but one could hope, right?<small>*
 | Before Security Controls | After Security Controls |
 | :----------------------: | :---------------------: |
-| <img src="unsecure_network.png" alt="Before" width="305"/> | <img src="secure_network.png" alt="After" width="300"/> |
+| <img src="unsecure_network.png" alt="Before" width="410"/> | <img src="secure_network.png" alt="After" width="395"/> |
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
