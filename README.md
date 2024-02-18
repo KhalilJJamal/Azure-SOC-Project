@@ -16,15 +16,10 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Before and After Security Controls
-
-Click on the images to view them in full size.
-
+*<small>Admittedly, this a theoretical model based on wishful thinking, but one could hope, right?<small>*
 | Before Security Controls | After Security Controls |
 | :----------------------: | :---------------------: |
-| ![Before](unsecure_network.png) | ![After](secure_network.png) |
-
-Click on the images to view them in full size.
-
+| <img src="unsecure_network.png" alt="Before" width="300"/> | <img src="secure_network.png" alt="After" width="300"/> |
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
