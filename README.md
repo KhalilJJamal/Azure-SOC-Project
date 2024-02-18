@@ -22,7 +22,7 @@ Click on the images to view them in full size.
 
 | Before Security Controls | After Security Controls |
 | :----------------------: | :---------------------: |
-| ![Before](unsecure_network.png) | ![After](secure_network.png) |
+| ![Before]() | ![After](secure_network.png) |
 
 Click on the images to view them in full size.
 
