@@ -15,20 +15,41 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Before Security Controls
+## Before and After Security Controls
 
-<!-- Unsecure Network -->
-<div style="width: 100%; padding-top: 100%; position: relative;">
-    <img src="unsecure_network.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
+<div class="image-container">
+    <div class="image-box">
+        <!-- Unsecure Network -->
+        <img src="unsecure_network.png" alt="Before Security Controls">
+    </div>
+    <div class="image-box">
+        <!-- Secure Network -->
+        <img src="secure_network.png" alt="After Security Controls">
+    </div>
 </div>
 
+<style>
+    .image-container {
+        display: flex;
+        width: 100%;
+    }
 
-## After Security Controls
+    .image-box {
+        flex: 1;
+        position: relative;
+        padding-top: 100%; /* Maintain 1:1 aspect ratio */
+    }
 
-<!-- Secure Network -->
-<div style="width: 100%; padding-top: 100%; position: relative;">
-    <img src="secure_network.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
-</div>
+    .image-box img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure the image covers the area */
+    }
+</style>
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
