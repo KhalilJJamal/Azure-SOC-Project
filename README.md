@@ -6,7 +6,7 @@
 </div>
 
 
-    *<small>OpenAI. (2024). ChatGPT [Large language model]. /g/g-pmuQfob8d-image-generator</small>*
+    <small>*OpenAI. (2024). ChatGPT [Large language model]. /g/g-pmuQfob8d-image-generator*</small>
 
 ## Introduction
 
