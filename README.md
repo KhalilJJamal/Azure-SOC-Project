@@ -8,13 +8,17 @@
 
 ## Introduction
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which Microsoft Sentinel then uses to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, then showed the results below. The metrics we will show are:
+I used Microsoft Azure to build a hands-on cybersecurity incident response lab for this project. I created a honeynet exposed to the open internet without any security controls to collect data on malicious activity. 
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
+I monitored traffic over 48 hours without security controls in the simulated SOC environment. Data was collected by ingesting logs from various sources into a Log Analytics workspace, which Microsoft Sentinel utilized to create attack maps and security incidents based on alert triggers. I resolved all security incidents by the NIST 800-61 protocol, implemented controls, including NIST 800-53 standards, and compared the results after another 48 hours. 
+
+I used KQL to collect metrics from various sources to assess the effectiveness of our security controls and ensure data security. The metrics include:
+SecurityEvent (Windows Event Logs)
+Syslog (Linux Event Logs)
+SecurityAlert (Log Analytics Alerts Triggered)
+SecurityIncident (Incidents created by Sentinel)
+AzureNetworkAnalytics_CL (Malicious Flows allowed into the honeynet)
+
   
 ## Before and After Security Controls
 <p align="center">
