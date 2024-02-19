@@ -47,11 +47,14 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Attack Maps Before Hardening / Security Controls
 
-![NSG Allowed Inbound Malicious Flows](nsg_malicious_allowed_in_Before.png)<br>
-![Linux Syslog Auth Failures](linux-ssh-auth-fail_Before.png)<br>
-![Windows RDP/SMB Auth Failures](windows-rdp-auth-fail_Before.png)<br>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <img src="nsg_malicious_allowed_in_Before.png" alt="NSG Allowed Inbound Malicious Flows" style="width: 32%; max-width: 200px; margin: 5px;">
+  <img src="linux-ssh-auth-fail_Before.png" alt="Linux Syslog Auth Failures" style="width: 32%; max-width: 200px; margin: 5px;">
+  <img src="windows-rdp-auth-fail_Before.png" alt="Windows RDP/SMB Auth Failures" style="width: 32%; max-width: 200px; margin: 5px;">
+</div>
 
 ## Metrics Before Hardening / Security Controls
+
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 Start Time 2023-03-15 17:04:29
