@@ -3,8 +3,8 @@
 <!-- Azure Diagram -->
 <div style="width: 100%; padding-top: 56.25%; position: relative;">
     <img src="azure_diagram.png" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"/>
-    *OpenAI. (2024). ChatGPT [Large language model]. /g/g-pmuQfob8d-image-generator*
 </div>
+*<small>*OpenAI. (2024). ChatGPT [Large language model]. /g/g-pmuQfob8d-image-generator*</small>
 
 ## Introduction
 
