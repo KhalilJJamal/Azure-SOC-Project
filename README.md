@@ -19,20 +19,17 @@ SecurityAlert (Log Analytics Alerts Triggered)
 SecurityIncident (Incidents created by Sentinel)
 AzureNetworkAnalytics_CL (Malicious Flows allowed into the honeynet)
 
-  
-## Before and After Security Controls
-
 ## Before and After Security Controls
 
 <em><small>With some creative liberties, of course.</small></em>
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-    <img src="unsecure_network.png" alt="Before" style="max-width: 100%; flex-basis: 45%; margin: 5px;">
-    <img src="secure_network.png" alt="After" style="max-width: 100%; flex-basis: 45%; margin: 5px;">
+    <img src="unsecure_network.png" alt="Before" style="max-width: 100%; flex-basis: 40%; margin: 2px;">
+    <img src="secure_network.png" alt="After" style="max-width: 100%; flex-basis: 40%; margin: 2px;">
 </div>
 
 <small><em>OpenAI. (2024). ChatGPT [Large language model]. /g/g-pmuQfob8d-image-generator</em></small>
-    
+   
 The architecture of the mini honeynet in Azure consists of the following components:
 
 - Virtual Network (VNet)
